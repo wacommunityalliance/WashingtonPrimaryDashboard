@@ -1,0 +1,148 @@
+{
+    "items": [
+        {
+            "title": "City Councilor District 1",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 2",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 3",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 4",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 5",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 6",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 7",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 8",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District A",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "County Assessor",
+            "path": null,
+            "items": [
+                {
+                    "title": "County",
+                    "path": "/Data/County Assessor/County.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "County Auditor",
+            "path": null,
+            "items": [
+                {
+                    "title": "County",
+                    "path": "/Data/County Auditor/County.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "County Councilor At-Large",
+            "path": null,
+            "items": [
+                {
+                    "title": "County",
+                    "path": "/Data/County Councilor At-Large/County.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "County Councilor District 2",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "County Councilor District 3",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "County Councilor District 4",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "County Councilor District 8",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "County Executive",
+            "path": null,
+            "items": [
+                {
+                    "title": "County",
+                    "path": "/Data/County Executive/County.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "Mayor",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 1",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 2",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 3",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 4",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 5",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "School Board Director District 6",
+            "path": null,
+            "items": null
+        }
+    ]
+}

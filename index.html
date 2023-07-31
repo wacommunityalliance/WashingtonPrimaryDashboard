@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington Primary Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="Assets/wca c3 color no words.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div class="header">
+        <img id="logo" src="Assets/wca c4 color horizontal.png" alt="Logo">
+        <div id="title">
+            <h1>Washington Primary Dashboard</h1>
+        </div>
+    </div>
+    
+    <nav class="menu">
+        <div id="menu-top">
+            <h3>#1 <select class="dropdown" id="first-dropdown"></select></h3>
+            <h3>#2 <select class="dropdown" id="second-dropdown"></select></h3>
+            <h3>Add-ons <select class='dropdown' id="extras-dropdown">
+                <option value="">None</option>
+                <option value="Data/Add-ons/Congressional Districts.geojson">Congressional Districts</option>
+                <option value="Data/Add-ons/Counties.geojson">Counties</option>
+                <option value="Data/Add-ons/County Council.geojson">County Council Districts</option>
+                <option value="Data/Add-ons/Legislative Districts.geojson">Legislative Districts</option>
+                <option value="Data/Add-ons/Municipalities.geojson">Municipalities</option>
+                <option value="Data/Add-ons/School Districts.geojson">School Districts</option>
+                <option value="Data/Add-ons/Tribal Lands.geojson">Tribal Lands</option>
+            </select></h3>
+        </div>
+
+        <div id="menu-middle">
+            <table class="table2">
+                <tr>
+                    <th colspan="8">Vote margin (1st place vs 2nd place)</th>
+                </tr>
+                <tr>
+                    <td>1st</td>
+                    <td bgcolor="#fbe9db"></td>
+                    <td bgcolor="#f8deca"></td>
+                    <td bgcolor="#f5d3bb"></td>
+                    <td bgcolor="#f4caa8"></td>
+                    <td bgcolor="#f2bf96"></td>
+                    <td bgcolor="#eeb483"></td>
+                    <td bgcolor="#ecab73"></td>
+                </tr>
+                <tr>
+                    <td>2nd</td>
+                    <td bgcolor="#daebea"></td>
+                    <td bgcolor="#c5e0de"></td>
+                    <td bgcolor="#b5d7d4"></td>
+                    <td bgcolor="#a1cbc8"></td>
+                    <td bgcolor="#8fc4be"></td>
+                    <td bgcolor="#7bbbb4"></td>
+                    <td bgcolor="#6ab0a9"></td>
+                </tr>
+                <tr>
+                    <td>3rd</td>
+                    <td bgcolor="#e7e8f0"></td>
+                    <td bgcolor="#dbdde8"></td>
+                    <td bgcolor="#cfd3e2"></td>
+                    <td bgcolor="#c1c6da"></td>
+                    <td bgcolor="#b7bdd3"></td>
+                    <td bgcolor="#a9b1cd"></td>
+                    <td bgcolor="#9fa4c4"></td>
+                </tr>
+                <tr>
+                    <td>4th</td>
+                    <td bgcolor="#fcf5e5"></td>
+                    <td bgcolor="#fbefd6"></td>
+                    <td bgcolor="#fce9c8"></td>
+                    <td bgcolor="#fae3bb"></td>
+                    <td bgcolor="#f9ddad"></td>
+                    <td bgcolor="#f7d89f"></td>
+                    <td bgcolor="#f6d392"></td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td bgcolor="#dfe8ef"></td>
+                    <td bgcolor="#cedfe9"></td>
+                    <td bgcolor="#c0d4e2"></td>
+                    <td bgcolor="#afc7d9"></td>
+                    <td bgcolor="#9fbed4"></td>
+                    <td bgcolor="#8fb3cc"></td>
+                    <td bgcolor="#80a8c5"></td>
+                </tr>
+                <tr>
+                    <td>6th</td>
+                    <td bgcolor="#f2e1de"></td>
+                    <td bgcolor="#ebd1ce"></td>
+                    <td bgcolor="#e7c2c0"></td>
+                    <td bgcolor="#e1b4b1"></td>
+                    <td bgcolor="#daa5a1"></td>
+                    <td bgcolor="#d49692"></td>
+                    <td bgcolor="#d08881"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>≤5%</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                    <td>25%</td>
+                    <td>30%</td>
+                    <td>>30%</td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+
+    <div id="welcome-message" title="Welcome!">
+        <p>This resource is a project of the <a href="https://wacommunityalliance.org/" target="_blank">Washington Community Alliance</a> Data Hub, developed to increase accessibility and clarity of election results. All data included in this resource is publicly available from the <a href="https://www.sos.wa.gov/elections/" target="_blank">Secretary of State</a>, and will continue to be updated daily until certification on August 18th.<br><br>
+            To get started, choose a position, then select a layer for visualization. Once data is displayed, click on any layer to see a popup of results.
+            Layers are colored by overall candidate ranking and vote margin (the vote difference between 1st and 2nd place candidates). <br><br>
+            If you enjoy this resource, <a href="https://secure.actblue.com/donate/wca-action-fund" target="_blank">donate today</a> to support the work we're doing to make data and research as accessible as possible. 
+            Thanks for your support, and feel free to reach out to <a href="mailto:tim@wacommunityalliance.org">Tim O'Neal</a> with any questions or feedback.<br><br>
+            Last updated at 2:55 PM on 7/31/23.
+        </p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+        // Welcome message on page load
+        $(document).ready(function() {
+            $("#welcome-message").dialog({
+                autoOpen: false,
+                modal: true,
+                buttons: {
+                    "Explore some data!": function() {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+
+            // show the welcome message
+            $("#welcome-message").dialog("open");
+        });
+    </script>
+</body>
+
+</html>

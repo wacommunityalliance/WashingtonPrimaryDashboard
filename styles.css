@@ -1,0 +1,173 @@
+.dropdown {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .9em;
+    border: 1.5px solid;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 30px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2em;
+    margin: 5px 0 3px 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 0.7em;
+    line-height: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.header {
+    position: absolute;
+    background-color: white;
+    opacity: 100%;
+    width: 230px;
+    z-index: 100;
+    height: 180px;
+    border-right: solid black;
+}
+
+#logo {
+    position: absolute;
+    height: 90px;
+    padding: 10px 0 15px 15px;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mapboxgl-popup {
+    width: 600;
+    
+}
+
+.mapboxgl-popup-content {
+    padding: 5px;
+    width: 300;
+    border-radius: .5em;
+    border: solid black 1.5px;
+}
+
+.mapboxgl-popup-content p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .8em;
+}
+
+.menu {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    width: 230px;
+    top: 180px;
+    height: 300px;
+    border-right: solid black;
+}
+
+#menu-top {
+    height: 80px;
+    padding: 0px 0px 5px 2px;
+}
+
+#menu-middle {
+    height: 220px;
+    padding: 0 10px 0 10px;
+    border-bottom: solid black;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 0.7em;
+    display: block;
+    margin: 5px 0 5px 0;
+    line-height: 15px;
+}
+
+.rank-square {
+    margin-left: 7.5px;
+    width: 15px;
+    height: 15px;
+}
+
+table.table1 {
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 10px;
+    padding: 5px 5px 5px 0px;
+}
+
+table.table1 td {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .9em;
+    text-align: center;
+}
+
+table.table1 th {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .7em;
+    height: 5%;
+    text-align: center;
+    border-bottom: 1.5px solid black;
+}
+
+table.table2 {
+    width: 100%;
+    height: 30%;
+    table-layout: fixed;
+}
+
+table.table2 td {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .65em;
+    height: 4%;
+    text-align: center;
+    padding: 5px 2px 5px 2px;
+    border-bottom: solid white;
+}
+
+table.table2 th {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: .7em;
+    height: 4%;
+    text-align: center;
+    padding: 5px 2px 5px 2px;
+}
+
+#title {
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+#welcome-message {
+    display: None;
+    width: 400px;
+}
+
+#welcome-message a {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
