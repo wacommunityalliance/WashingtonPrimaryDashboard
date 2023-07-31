@@ -236,7 +236,7 @@ function layerSelected(path) {
     map.addSource('selectedLayer', {
         type: 'geojson',
         data: '/WashingtonPrimaryDashboard/Data/' + path + '.geojson'  // uncomment to publish
-        // data: '/Data/' + path + '.geojson'               // uncomment to debug
+        //data: '/Data/' + path + '.geojson'               // uncomment to debug
     });
 
     map.addLayer({
@@ -343,7 +343,7 @@ function loadGeoJSONLayer(url) {
         source: 'dynamic-layer',
         paint: {
           'line-color': 'black',
-          'line-width': 2
+          'line-width': 1.5
         }
       });
   

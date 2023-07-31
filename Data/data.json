@@ -1,7 +1,17 @@
 {
     "items": [
         {
+            "title": "City Councilor At-Large District A",
+            "path": null,
+            "items": null
+        },
+        {
             "title": "City Councilor District 1",
+            "path": null,
+            "items": null
+        },
+        {
+            "title": "City Councilor District 12",
             "path": null,
             "items": null
         },
@@ -41,11 +51,6 @@
             "items": null
         },
         {
-            "title": "City Councilor District A",
-            "path": null,
-            "items": null
-        },
-        {
             "title": "County Assessor",
             "path": null,
             "items": [
@@ -79,24 +84,64 @@
             ]
         },
         {
+            "title": "County Councilor District 1",
+            "path": null,
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 1/District.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
             "title": "County Councilor District 2",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 2/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 3",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 3/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 4",
+            "path": null,
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 4/District.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "County Councilor District 5",
             "path": null,
             "items": null
         },
         {
             "title": "County Councilor District 8",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 8/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Executive",
@@ -112,7 +157,13 @@
         {
             "title": "Mayor",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "Municipality",
+                    "path": "/Data/Mayor/Municipality.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "School Board Director District 1",
