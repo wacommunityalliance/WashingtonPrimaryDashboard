@@ -107,8 +107,8 @@ p {
 table.table1 {
     border-collapse: separate;
     border-radius: 5px;
-    width: 100%;
     border: 2px 2px 2px 2px;
+    width: 100%;
 }
 
 table.table1 td {
