@@ -18,7 +18,7 @@ h1 {
 h2 {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 5px 0 3px 0;
     text-align: center;
 }
@@ -55,14 +55,9 @@ h3 {
     width: 100%;
 }
 
-.mapboxgl-popup {
-    width: 600;
-    
-}
-
 .mapboxgl-popup-content {
     padding: 5px;
-    width: 300;
+    width: 120%;
     border-radius: .5em;
     border: solid black 1.5px;
 }
@@ -104,22 +99,23 @@ p {
 }
 
 .rank-square {
-    margin-left: 7.5px;
+    text-align: left;
     width: 15px;
     height: 15px;
 }
 
 table.table1 {
-    width: 100%;
     border-collapse: separate;
-    border-radius: 10px;
-    padding: 5px 5px 5px 0px;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px 2px 2px 2px;
 }
 
 table.table1 td {
     font-family: 'Montserrat';
     font-weight: 300;
-    font-size: .9em;
+    font-size: .8em;
+    white-space: nowrap;
     text-align: center;
 }
 
@@ -127,7 +123,6 @@ table.table1 th {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: .7em;
-    height: 5%;
     text-align: center;
     border-bottom: 1.5px solid black;
 }

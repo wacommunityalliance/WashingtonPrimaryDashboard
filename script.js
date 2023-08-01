@@ -39,68 +39,63 @@ map.on('click', 'selectedLayer', (e) => {
     }
 
     const label = e.features[0].properties.Title;
-    const turnout = e.features[0].properties.Turnout;
-    const turnoutRelative = e.features[0].properties.TurnoutRelative;
+    const totalVotes = e.features[0].properties.Votes_total;
+
+    const candidate1 = e.features[0].properties.Name_1;
+    const party1 = e.features[0].properties.Party_1;
+    const rank1 = e.features[0].properties.Rank_1;
+    const votes1 = e.features[0].properties.Votes_1;
+    const pct1 = Math.round(e.features[0].properties.Pct_1 * 100) / 100;
+
+    const candidate2 = e.features[0].properties.Name_2;
+    const party2 = e.features[0].properties.Party_2;
+    const rank2 = e.features[0].properties.Rank_2;
+    const votes2 = e.features[0].properties.Votes_2;
+    const pct2 = Math.round(e.features[0].properties.Pct_2 * 100) / 100;
+
+    const candidate3 = e.features[0].properties.Name_3;
+    const party3 = e.features[0].properties.Party_3;
+    const rank3 = e.features[0].properties.Rank_3;
+    const votes3 = e.features[0].properties.Votes_3;
+    const pct3 = Math.round(e.features[0].properties.Pct_3 * 100) / 100;
+
+    const candidate4 = e.features[0].properties.Name_4;
+    const party4 = e.features[0].properties.Party_4;
+    const rank4 = e.features[0].properties.Rank_4;
+    const votes4 = e.features[0].properties.Votes_4;
+    const pct4 = Math.round(e.features[0].properties.Pct_4 * 100) / 100;
+
+    const candidate5 = e.features[0].properties.Name_5;
+    const party5 = e.features[0].properties.Party_5;
+    const rank5 = e.features[0].properties.Rank_5;
+    const votes5 = e.features[0].properties.Votes_5;
+    const pct5 = Math.round(e.features[0].properties.Pct_5 * 100) / 100;
+
+    const candidate6 = e.features[0].properties.Name_6;
+    const party6 = e.features[0].properties.Party_6;
+    const rank6 = e.features[0].properties.Rank_6;
+    const votes6 = e.features[0].properties.Votes_6;
+    const pct6 = Math.round(e.features[0].properties.Pct_6 * 100) / 100;
 
     let message;
 
-    if (turnout !== undefined) {
+    if (candidate1 == null) {
         message =
             '<h2>' + label + '</h2>'
-            + '<p> Voter turnout (absolute): ' + turnout + '%</p>'
-            + '<p> Voter turnout (relative): ' + turnoutRelative + '%</p>';
+            + '<p>No data available</p>';
     } else {
-        const totalVotes = e.features[0].properties.Votes_total;
-
-        const candidate1 = e.features[0].properties.Name_1;
-        const rank1 = e.features[0].properties.Rank_1;
-        const votes1 = e.features[0].properties.Votes_1;
-        const pct1 = Math.round(e.features[0].properties.Pct_1 * 100) / 100;
-
-        const candidate2 = e.features[0].properties.Name_2;
-        const rank2 = e.features[0].properties.Rank_2;
-        const votes2 = e.features[0].properties.Votes_2;
-        const pct2 = Math.round(e.features[0].properties.Pct_2 * 100) / 100;
-
-        const candidate3 = e.features[0].properties.Name_3;
-        const rank3 = e.features[0].properties.Rank_3;
-        const votes3 = e.features[0].properties.Votes_3;
-        const pct3 = Math.round(e.features[0].properties.Pct_3 * 100) / 100;
-
-        const candidate4 = e.features[0].properties.Name_4;
-        const rank4 = e.features[0].properties.Rank_4;
-        const votes4 = e.features[0].properties.Votes_4;
-        const pct4 = Math.round(e.features[0].properties.Pct_4 * 100) / 100;
-
-        const candidate5 = e.features[0].properties.Name_5;
-        const rank5 = e.features[0].properties.Rank_5;
-        const votes5 = e.features[0].properties.Votes_5;
-        const pct5 = Math.round(e.features[0].properties.Pct_5 * 100) / 100;
-
-        const candidate6 = e.features[0].properties.Name_6;
-        const rank6 = e.features[0].properties.Rank_6;
-        const votes6 = e.features[0].properties.Votes_6;
-        const pct6 = Math.round(e.features[0].properties.Pct_6 * 100) / 100;
-
-
-        if (candidate1 == null) {
-            message =
-                '<h2>' + label + '</h2>'
-                + '<p>No data available</p>';
-        } else {
-            message =
-                '<h2>' + label + '</h2>'
-                + '<table class="table1">'
-                + '<tr><th>COLOR</th><th>CANDIDATE</th><th>VOTES</th><th>PERCENT</th></tr>'
-                + createTableRow(candidate1, rank1, votes1, pct1)
-                + createTableRow(candidate2, rank2, votes2, pct2)
-                + createTableRow(candidate3, rank3, votes3, pct3)
-                + createTableRow(candidate4, rank4, votes4, pct4)
-                + createTableRow(candidate5, rank5, votes5, pct5)
-                + createTableRow(candidate6, rank6, votes6, pct6)
-                + '</table>'
-                + '<p>  Total votes: ' + totalVotes + '</p>';
-        }
+        message =
+            '<h2>' + label + '</h2>'
+            + '<table class="table1">'
+            + '<tr><th>ID</th><th>CANDIDATE</th><th>PARTY</th><th>VOTES</th><th>PERCENT</th></tr>'
+            + createTableRow(candidate1, party1, rank1, votes1, pct1)
+            + createTableRow(candidate2, party2, rank2, votes2, pct2)
+            + createTableRow(candidate3, party3, rank3, votes3, pct3)
+            + createTableRow(candidate4, party4, rank4, votes4, pct4)
+            + createTableRow(candidate5, party5, rank5, votes5, pct5)
+            + createTableRow(candidate6, party6, rank6, votes6, pct6)
+            + '</table>'
+            + '<p>  Total votes: ' + totalVotes + '</p>';
     }
 
     // Create popup
@@ -110,7 +105,7 @@ map.on('click', 'selectedLayer', (e) => {
         .addTo(map);
 });
 
-function createTableRow(candidate, rank, votes, percent) {
+function createTableRow(candidate, party, rank, votes, percent) {
     if (!candidate) return '';
 
     const rankColors = {
@@ -127,6 +122,7 @@ function createTableRow(candidate, rank, votes, percent) {
     return '<tr>'
         + '<td>' + '  ' + '<div class="rank-square" style="background-color:' + rankColor + '"></div>' + '</td>'
         + '<td>' + candidate + '</td>'
+        + '<td>' + party + '</td>'
         + '<td>' + votes + '</td>'
         + '<td>' + percent + '%</td>'
         + '</tr>';
@@ -236,7 +232,7 @@ function layerSelected(path) {
     map.addSource('selectedLayer', {
         type: 'geojson',
         data: '/WashingtonPrimaryDashboard/Data/' + path + '.geojson'  // uncomment to publish
-        //data: '/Data/' + path + '.geojson'               // uncomment to debug
+        // data: '/Data/' + path + '.geojson'               // uncomment to debug
     });
 
     map.addLayer({
@@ -249,77 +245,39 @@ function layerSelected(path) {
             'line-width': 1.25
         }
     });
-4
 
-    if (path.includes('Voter Turnout')) {
-        map.addLayer({
-            id: 'selectedLayer',
-            type: 'fill',
-            source: 'selectedLayer',
-            layout: {},
-            paint: {
-                'fill-color': [
-                    'match',
-                    ['get', 'Split'],
-                    'Above', '#119f92',
-                    'Below', '#868fba',
-                    'transparent'
-                ],
-                'fill-opacity': [
-                    'step',
-                    ['get', 'TurnoutRelative'],
-                    0.8, -101,
-                    0.7, -20, 
-                    0.6, -15,
-                    0.5, -10,
-                    0.4, -7.5,
-                    0.3, -5,
-                    0.2, -2.5,
-                    0.2, 2.5,
-                    0.3, 5,
-                    0.4, 7.5,
-                    0.5, 10,
-                    0.6, 15,
-                    0.7, 20,
-                    0.8, 101,
-                    0
-                ]
-            }
-        }, firstSymbolId);
-    } else {
-        map.addLayer({
-            id: 'selectedLayer',
-            type: 'fill',
-            source: 'selectedLayer',
-            layout: {},
-            paint: {
-                'fill-color': [         // fill polygon based on 1st place candidate's party
-                    'match',
-                    ['get', 'Rank_1'],
-                    1, '#f68f3e',
-                    2, '#119f92',
-                    3, '#868fba',
-                    4, '#fac566',
-                    5, '#4f93ba',
-                    6, '#cf635d',
-                    'transparent'
-                ],
-                'fill-opacity': [       // set fill opacity to margin b/w 1st and 2nd place candidates
-                    'step',
-                    ['get', 'Margin'],
-                    0.2, 5,
-                    0.3, 10,
-                    0.4, 15,
-                    0.5, 20,
-                    0.6, 25,
-                    0.7, 30,
-                    0.8, 101,
-                    0
-                ]
-            }
-        },
-        firstSymbolId);
-    }
+    map.addLayer({
+        id: 'selectedLayer',
+        type: 'fill',
+        source: 'selectedLayer',
+        layout: {},
+        paint: {
+            'fill-color': [         // fill polygon based on 1st place candidate's party
+                'match',
+                ['get', 'Rank_1'],
+                1, '#f68f3e',
+                2, '#119f92',
+                3, '#868fba',
+                4, '#fac566',
+                5, '#4f93ba',
+                6, '#cf635d',
+                'transparent'
+            ],
+            'fill-opacity': [       // set fill opacity to margin b/w 1st and 2nd place candidates
+                'step',
+                ['get', 'Margin'],
+                0.2, 5,
+                0.3, 10,
+                0.4, 15,
+                0.5, 20,
+                0.6, 25,
+                0.7, 30,
+                0.8, 101,
+                0
+            ]
+        }
+    },
+    firstSymbolId);
 }
 
 
