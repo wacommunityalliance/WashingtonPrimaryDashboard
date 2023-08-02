@@ -239,6 +239,11 @@
                     "title": "Municipality",
                     "path": "/Data/Mayor/Municipality.geojson",
                     "items": null
+                },
+                {
+                    "title": "Precinct",
+                    "path": "/Data/Mayor/Precinct.geojson",
+                    "items": null
                 }
             ]
         },
