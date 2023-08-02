@@ -8,6 +8,11 @@
                     "title": "Municipality",
                     "path": "/Data/City Councilor At-Large/Municipality.geojson",
                     "items": null
+                },
+                {
+                    "title": "Precinct",
+                    "path": "/Data/City Councilor At-Large/Precinct.geojson",
+                    "items": null
                 }
             ]
         },
@@ -30,6 +35,11 @@
                     "title": "Municipality",
                     "path": "/Data/City Councilor District 2/Municipality.geojson",
                     "items": null
+                },
+                {
+                    "title": "Precinct",
+                    "path": "/Data/City Councilor District 2/Precinct.geojson",
+                    "items": null
                 }
             ]
         },
@@ -40,6 +50,11 @@
                 {
                     "title": "Municipality",
                     "path": "/Data/City Councilor District 3/Municipality.geojson",
+                    "items": null
+                },
+                {
+                    "title": "Precinct",
+                    "path": "/Data/City Councilor District 3/Precinct.geojson",
                     "items": null
                 }
             ]
