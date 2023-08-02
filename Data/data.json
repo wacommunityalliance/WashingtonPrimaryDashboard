@@ -146,32 +146,68 @@
         {
             "title": "County Councilor District 1",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 1/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 2",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 2/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 3",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 3/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 4",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 4/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 5",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 5/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Councilor District 8",
             "path": null,
-            "items": null
+            "items": [
+                {
+                    "title": "District",
+                    "path": "/Data/County Councilor District 8/District.geojson",
+                    "items": null
+                }
+            ]
         },
         {
             "title": "County Executive",
