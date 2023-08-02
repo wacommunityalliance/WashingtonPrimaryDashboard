@@ -243,11 +243,6 @@
             ]
         },
         {
-            "title": "Municipality",
-            "path": "/Data/Municipality.geojson",
-            "items": null
-        },
-        {
             "title": "School Board Director District 1",
             "path": null,
             "items": [
