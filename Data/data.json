@@ -23,17 +23,6 @@
             ]
         },
         {
-            "title": "City Councilor District 12",
-            "path": null,
-            "items": [
-                {
-                    "title": "Municipality",
-                    "path": "/Data/City Councilor District 12/Municipality.geojson",
-                    "items": null
-                }
-            ]
-        },
-        {
             "title": "City Councilor District 2",
             "path": null,
             "items": [
@@ -106,6 +95,39 @@
                 {
                     "title": "Municipality",
                     "path": "/Data/City Councilor District 8/Municipality.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "City Councilor Ward 1",
+            "path": null,
+            "items": [
+                {
+                    "title": "Municipality",
+                    "path": "/Data/City Councilor Ward 1/Municipality.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "City Councilor Ward 2",
+            "path": null,
+            "items": [
+                {
+                    "title": "Municipality",
+                    "path": "/Data/City Councilor Ward 2/Municipality.geojson",
+                    "items": null
+                }
+            ]
+        },
+        {
+            "title": "City Councilor Ward 3",
+            "path": null,
+            "items": [
+                {
+                    "title": "Municipality",
+                    "path": "/Data/City Councilor Ward 3/Municipality.geojson",
                     "items": null
                 }
             ]
@@ -230,6 +252,11 @@
                     "items": null
                 }
             ]
+        },
+        {
+            "title": "Municipality",
+            "path": "/Data/Municipality.geojson",
+            "items": null
         },
         {
             "title": "School Board Director District 1",
