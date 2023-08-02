@@ -1,12 +1,12 @@
 {
     "items": [
         {
-            "title": "City Councilor At-Large District A",
+            "title": "City Councilor At-Large",
             "path": null,
             "items": [
                 {
                     "title": "Municipality",
-                    "path": "/Data/City Councilor At-Large District A/Municipality.geojson",
+                    "path": "/Data/City Councilor At-Large/Municipality.geojson",
                     "items": null
                 }
             ]
@@ -84,17 +84,6 @@
                 {
                     "title": "Municipality",
                     "path": "/Data/City Councilor District 7/Municipality.geojson",
-                    "items": null
-                }
-            ]
-        },
-        {
-            "title": "City Councilor District 8",
-            "path": null,
-            "items": [
-                {
-                    "title": "Municipality",
-                    "path": "/Data/City Councilor District 8/Municipality.geojson",
                     "items": null
                 }
             ]
