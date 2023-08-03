@@ -270,6 +270,11 @@
                     "title": "District",
                     "path": "/Data/School Board Director District 1/District.geojson",
                     "items": null
+                },
+                {
+                    "title": "SchoolPrecinct",
+                    "path": "/Data/School Board Director District 1/SchoolPrecinct.geojson",
+                    "items": null
                 }
             ]
         },
@@ -280,6 +285,11 @@
                 {
                     "title": "District",
                     "path": "/Data/School Board Director District 2/District.geojson",
+                    "items": null
+                },
+                {
+                    "title": "SchoolPrecinct",
+                    "path": "/Data/School Board Director District 2/SchoolPrecinct.geojson",
                     "items": null
                 }
             ]
@@ -292,6 +302,11 @@
                     "title": "District",
                     "path": "/Data/School Board Director District 3/District.geojson",
                     "items": null
+                },
+                {
+                    "title": "SchoolPrecinct",
+                    "path": "/Data/School Board Director District 3/SchoolPrecinct.geojson",
+                    "items": null
                 }
             ]
         },
@@ -303,6 +318,11 @@
                     "title": "District",
                     "path": "/Data/School Board Director District 4/District.geojson",
                     "items": null
+                },
+                {
+                    "title": "SchoolPrecinct",
+                    "path": "/Data/School Board Director District 4/SchoolPrecinct.geojson",
+                    "items": null
                 }
             ]
         },
@@ -313,6 +333,11 @@
                 {
                     "title": "District",
                     "path": "/Data/School Board Director District 5/District.geojson",
+                    "items": null
+                },
+                {
+                    "title": "SchoolPrecinct",
+                    "path": "/Data/School Board Director District 5/SchoolPrecinct.geojson",
                     "items": null
                 }
             ]
