@@ -300,7 +300,7 @@ function loadGeoJSONLayer(url) {
         type: 'line',
         source: 'dynamic-layer',
         paint: {
-          'line-color': 'black',
+          'line-color': '#595959',
           'line-width': 1.5
         }
       });
