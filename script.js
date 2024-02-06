@@ -304,7 +304,7 @@ function layerSelected(path) {
             ]
         }
     },
-    firstSymbolId);
+        firstSymbolId);
 }
 
 
@@ -312,36 +312,50 @@ var currentLayer = null;
 
 function loadGeoJSONLayer(url) {
     if (currentLayer) {
-      map.removeLayer(currentLayer);
-      map.removeSource(currentLayer);
+        map.removeLayer(currentLayer);
+        map.removeSource(currentLayer);
     }
-  
-    if (url) {
-      map.addSource('dynamic-layer', {
-        type: 'geojson',
-        data: url
-      });
-  
-      map.addLayer({
-        id: 'dynamic-layer',
-        type: 'line',
-        source: 'dynamic-layer',
-        paint: {
-          'line-color': '#595959',
-          'line-width': 1.5
-        }
-      });
-  
-      currentLayer = 'dynamic-layer';
-  
-      // Move the dynamic layer to the top
-      map.moveLayer('dynamic-layer');
-    }
-  }
-  
 
-  var layerDropdown = document.getElementById('extras-dropdown');
-  layerDropdown.addEventListener('change', function() {
+    if (url) {
+        map.addSource('dynamic-layer', {
+            type: 'geojson',
+            data: url
+        });
+
+        map.addLayer({
+            id: 'dynamic-layer',
+            type: 'line',
+            source: 'dynamic-layer',
+            paint: {
+                'line-color': '#595959',
+                'line-width': 1.5
+            }
+        });
+
+        currentLayer = 'dynamic-layer';
+
+        // Move the dynamic layer to the top
+        map.moveLayer('dynamic-layer');
+    }
+}
+
+
+var layerDropdown = document.getElementById('extras-dropdown');
+layerDropdown.addEventListener('change', function () {
     var selectedLayer = layerDropdown.value;
     loadGeoJSONLayer(selectedLayer);
-  });
+});
+
+
+
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', function () {
+    menu.classList.toggle('menu-visible');
+
+    // Toggle the "plus" and "minus" icons
+    const icon = menuToggle.querySelector('i');
+    icon.classList.toggle('fa-minus');
+    icon.classList.toggle('fa-plus');
+});
