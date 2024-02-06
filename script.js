@@ -144,6 +144,7 @@ function convertToDropdownFormat(treeData) {
 
 let selectedFirstValue = '';
 let selectedSecondValue = '';
+let selectedThirdValue = '';
 
 fetch('Data/data.json')
     .then(response => response.json())
@@ -155,7 +156,7 @@ fetch('Data/data.json')
         const firstDropdown = document.getElementById('first-dropdown');
         const firstDefaultOption = document.createElement('option');
         firstDefaultOption.value = '';
-        firstDefaultOption.textContent = 'Select position';
+        firstDefaultOption.textContent = 'Select year';
         firstDropdown.appendChild(firstDefaultOption);
 
         dropdownData.forEach(item => {
@@ -174,7 +175,7 @@ fetch('Data/data.json')
 
             const secondDefaultOption = document.createElement('option');
             secondDefaultOption.value = '';
-            secondDefaultOption.textContent = 'Select layer';
+            secondDefaultOption.textContent = 'Select position';
             secondDropdown.appendChild(secondDefaultOption);
 
             if (selectedFirstItem && selectedFirstItem.children) {
@@ -187,13 +188,39 @@ fetch('Data/data.json')
             }
         });
 
-        // Call the layerSelected function when the second dropdown selection changes
+        // Update the third dropdown menu when the second dropdown selection changes
         const secondDropdown = document.getElementById('second-dropdown');
         secondDropdown.addEventListener('change', () => {
-            const selectedSecondValue = secondDropdown.value;
+            const thirdDropdown = document.getElementById('third-dropdown');
+            selectedSecondValue = secondDropdown.value; // Update selectedSecondValue
+            const selectedFirstItem = dropdownData.find(item => item.value === selectedFirstValue);
+            const selectedSecondItem = selectedFirstItem && selectedFirstItem.children
+                ? selectedFirstItem.children.find(item => item.value === selectedSecondValue)
+                : null;
+            thirdDropdown.innerHTML = ''; // Clear the previous options
+
+            const thirdDefaultOption = document.createElement('option');
+            thirdDefaultOption.value = '';
+            thirdDefaultOption.textContent = 'Select layer';
+            thirdDropdown.appendChild(thirdDefaultOption);
+
+            if (selectedSecondItem && selectedSecondItem.children) {
+                selectedSecondItem.children.forEach(item => {
+                    const option = document.createElement('option');
+                    option.value = item.value;
+                    option.textContent = item.value;
+                    thirdDropdown.appendChild(option);
+                });
+            }
+        });
+
+        // Call the layerSelected function when the third dropdown selection changes
+        const thirdDropdown = document.getElementById('third-dropdown');
+        thirdDropdown.addEventListener('change', () => {
+            const selectedThirdValue = thirdDropdown.value;
 
             // Generate the selected path
-            const path = selectedFirstValue + '/' + selectedSecondValue;
+            const path = selectedFirstValue + '/' + selectedSecondValue + '/' + selectedThirdValue;
 
             // Close the popup if it is open
             if (popup !== null) {
@@ -203,7 +230,7 @@ fetch('Data/data.json')
 
             // Call the layerSelected function with the selected path
             layerSelected(path);
-            return selectedSecondValue;
+            return selectedThirdValue;
         });
     });
 
