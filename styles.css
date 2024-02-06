@@ -7,6 +7,40 @@
     border-radius: 5px;
 }
 
+
+#about-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #119f92;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-popup {
+    border: solid black;
+    border-radius: 5%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    bottom: 50px;
+    right: 20px;
+    width: 300px;
+    z-index: 1;
+}
+
+#about-questionmark {
+    font-size: 24px;
+}
+
 h1 {
     font-family: 'Montserrat';
     font-weight: 900;
@@ -166,3 +200,40 @@ table.table2 th {
     font-family: 'Montserrat';
     font-weight: 700;
 }
+
+
+@media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    /* Style the toggle button */
+    #menu-toggle {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        top: 150px;
+        right: 10px;
+        background-color: #f68f3e;
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Add this to your CSS to control menu visibility */
+    .menu.menu-visible {
+        display: block;
+    }
+  }
+
+/* Hide the mobile-only container on screens wider than 768px */
+@media (min-width: 769px) {
+    .mobile-only {
+      display: none;
+    }
+  }

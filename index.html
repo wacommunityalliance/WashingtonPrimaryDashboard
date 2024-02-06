@@ -9,7 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
@@ -29,22 +30,22 @@
             <h1>Primary Elections Dashboard</h1>
         </div>
     </div>
-    
+
     <nav class="menu">
         <div id="menu-top">
             <h3>#1 <select class="dropdown" id="first-dropdown"></select></h3>
             <h3>#2 <select class="dropdown" id="second-dropdown"></select></h3>
             <h3>#3 <select class="dropdown" id="third-dropdown"></select></h3>
             <h3>Add-ons <select class='dropdown' id="extras-dropdown">
-                <option value="">None</option>
-                <option value="Data/Add-ons/Congressional Districts.geojson">Congressional Districts</option>
-                <option value="Data/Add-ons/Counties.geojson">Counties</option>
-                <option value="Data/Add-ons/County Council.geojson">County Council Districts</option>
-                <option value="Data/Add-ons/Legislative Districts.geojson">Legislative Districts</option>
-                <option value="Data/Add-ons/Municipalities.geojson">Municipalities</option>
-                <option value="Data/Add-ons/School Districts.geojson">School Districts</option>
-                <option value="Data/Add-ons/Tribal Lands.geojson">Tribal Lands</option>
-            </select></h3>
+                    <option value="">None</option>
+                    <option value="Data/Add-ons/Congressional Districts.geojson">Congressional Districts</option>
+                    <option value="Data/Add-ons/Counties.geojson">Counties</option>
+                    <option value="Data/Add-ons/County Council.geojson">County Council Districts</option>
+                    <option value="Data/Add-ons/Legislative Districts.geojson">Legislative Districts</option>
+                    <option value="Data/Add-ons/Municipalities.geojson">Municipalities</option>
+                    <option value="Data/Add-ons/School Districts.geojson">School Districts</option>
+                    <option value="Data/Add-ons/Tribal Lands.geojson">Tribal Lands</option>
+                </select></h3>
         </div>
 
         <div id="menu-middle">
@@ -127,26 +128,53 @@
     </nav>
 
     <div id="welcome-message" title="Welcome!">
-        <p>This resource is a project of the <a href="https://wacommunityalliance.org/" target="_blank">Washington Community Alliance</a> Data Hub, developed to increase accessibility and clarity of election results. All data included in this resource is publicly available from the <a href="https://www.sos.wa.gov/elections/" target="_blank">Secretary of State</a>.
-            Data may not be complete due to discrepancies in reporting from individual counties and/or availability of individual shapefiles.<br><br>
-            To get started, choose a position, then select a layer for visualization. Once data is displayed, click on any layer to see a popup of results.
-            Layers are colored by overall candidate ranking and vote margin (the vote difference between 1st and 2nd place candidates). <br><br>
-            If you enjoy this resource, <a href="https://secure.actblue.com/donate/wca-action-fund" target="_blank">donate today</a> to support the work we're doing to make data and research as accessible as possible. 
-            This new dashboard was developed fully in-house by Senior Research Analyst <a href="mailto:tim@wacommunityalliance.org">Tim O'Neal, PhD</a>. Shapefiles and enhanced precinct data were created, maintained, and provided by <a href="mailto:ben@progressivestrategiesnw.com">Ben Anderstone</a> of Progressive Strategies NW. Thank you for your support, and please reach out with any questions or feedback.
+        <p>This resource is a project of the <a href="https://wacommunityalliance.org/" target="_blank">Washington
+                Community Alliance</a> Data Hub,
+            developed to increase accessibility and clarity of election results. All data are publicly available from
+            the website of Washington's <a href="https://www.sos.wa.gov/elections/" target="_blank">Secretary of
+                State</a>.
             <br><br>
-            Last updated at 5:15pm on Feb 5th, 2024
+            This resource was developed by <a href="mailto:tim@wacommunityalliance.org">Tim O'Neal, PhD</a>, Senior
+            Research Analyst at WCA, and
+            shapefiles and precinct descriptions were created, maintained, and provided by <a
+                href="mailto:ben@progressivestrategiesnw.com">Ben Anderstone</a> of <a
+                href="http://progressivestrategiesnw.com/" target="_blank">Progressive Strategies NW</a>.
+            If you enjoy this resource, please consider <a href="https://secure.actblue.com/donate/wca-action-fund"
+                target="_blank">donating today</a> to support the work we do to make election data as accessible as
+            possible.
+            <br><br>
+            Last updated at 9:15pm on Feb 5th, 2024
+        </p>
         </p>
     </div>
+
+    <div id="about-icon">
+        <div id="about-questionmark">?</div>
+        <div id="about-popup" title="Getting started">
+            <p>This dashboard includes election results from 2020-2023, with options to view results at multiple levels.
+                Be sure to check back often, as additional historic data will regularly be added.<br><br>
+                To get started, choose (1) the election cycle you're interested in,
+                (2) the position you would like to explore, and (3) the level you would like to see results shown for.
+                While data is visualized, you can click on any boundary to see a popup of results.
+                Layers are colored by overall candidate ranking and vote margin (the vote difference between 1st and 2nd
+                place candidates). <br><br>
+                Data on voter turnout is visualized relative to the statewide average for that year, with deeper greens
+                indicating greater-than-average turnout and deeper purples indicating lower-than-average
+                turnout.<br><br>
+                Mobile users: clicking on the orange button in the upper-left will collapse/expand the menu bar.
+        </div>
+    </div>
+
 
     <script type="text/javascript" src="script.js"></script>
     <script>
         // Welcome message on page load
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#welcome-message").dialog({
                 autoOpen: false,
                 modal: true,
                 buttons: {
-                    "Explore some data!": function() {
+                    "Explore some data!": function () {
                         $(this).dialog("close");
                     }
                 }
@@ -156,6 +184,30 @@
             $("#welcome-message").dialog("open");
         });
     </script>
+
+
+    <script>
+        const aboutIcon = document.getElementById('about-icon');
+        const aboutPopup = document.getElementById('about-popup');
+
+        aboutIcon.addEventListener('click', () => {
+            if (aboutPopup.style.display === 'block') {
+                aboutPopup.style.display = 'none';
+            } else {
+                aboutPopup.style.display = 'block';
+            }
+        });
+    </script>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', function () {
+            menu.classList.toggle('menu-visible');
+        });
+    </script>
+
 </body>
 
 </html>
