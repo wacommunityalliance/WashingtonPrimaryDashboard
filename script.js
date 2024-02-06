@@ -40,6 +40,7 @@ map.on('click', 'selectedLayer', (e) => {
 
     const label = e.features[0].properties.Title;
     const totalVotes = e.features[0].properties.Votes_total;
+    const precinct = e.features[0].properties.Precinct;
 
     const candidate1 = e.features[0].properties.Name_1;
     const party1 = e.features[0].properties.Party_1;
@@ -83,9 +84,9 @@ map.on('click', 'selectedLayer', (e) => {
         message =
             '<h2>' + label + '</h2>'
             + '<p>No data available</p>';
-    } else {
+    } else if (precinct !== undefined) {
         message =
-            '<h2>' + label + '</h2>'
+            '<h1>' + label + '</h1>'
             + '<table class="table1">'
             + '<tr><th>ID</th><th>CANDIDATE</th><th>PARTY</th><th>VOTES</th><th>PERCENT</th></tr>'
             + createTableRow(candidate1, party1, rank1, votes1, pct1)
@@ -96,7 +97,20 @@ map.on('click', 'selectedLayer', (e) => {
             + createTableRow(candidate6, party6, rank6, votes6, pct6)
             + '</table>'
             + '<p>  Total votes: ' + totalVotes + '</p>';
-    }
+    } else {
+            message =
+                '<h1>' + label + '</h1>'
+                + '<table class="table1">'
+                + '<tr><th>ID</th><th>CANDIDATE</th><th>PARTY</th><th>VOTES</th><th>PERCENT</th></tr>'
+                + createTableRow(candidate1, party1, rank1, votes1, pct1)
+                + createTableRow(candidate2, party2, rank2, votes2, pct2)
+                + createTableRow(candidate3, party3, rank3, votes3, pct3)
+                + createTableRow(candidate4, party4, rank4, votes4, pct4)
+                + createTableRow(candidate5, party5, rank5, votes5, pct5)
+                + createTableRow(candidate6, party6, rank6, votes6, pct6)
+                + '</table>'
+                + '<p>  Total votes: ' + totalVotes + '</p>';
+        }
 
     // Create popup
     popup = new mapboxgl.Popup()

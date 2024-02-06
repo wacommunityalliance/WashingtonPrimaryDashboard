@@ -51,8 +51,9 @@ h1 {
 
 h2 {
     font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 1.7em;
+    font-weight: 900;
+    font-size: 1.5em;
+    line-height: 20px;
     margin: 5px 0 3px 0;
     text-align: center;
 }
@@ -70,7 +71,7 @@ h3 {
     position: absolute;
     background-color: white;
     opacity: 100%;
-    width: 230px;
+    width: 245px;
     z-index: 100;
     height: 180px;
     border-right: solid black;
@@ -91,7 +92,7 @@ h3 {
 
 .mapboxgl-popup-content {
     padding: 5px;
-    width: 120%;
+    width: 150%;
     border-radius: .5em;
     border: solid black 1.5px;
 }
@@ -106,7 +107,7 @@ h3 {
     position: absolute;
     background-color: white;
     left: 0;
-    width: 230px;
+    width: 245px;
     top: 180px;
     height: 340px;
     border-right: solid black;
