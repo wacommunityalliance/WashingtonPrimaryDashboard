@@ -17,6 +17,11 @@
                             "title": "County",
                             "path": "/Data/2024/Democratic Nominee for President/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Democratic Nominee for President/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -32,6 +37,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/Republican Nominee for President/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Republican Nominee for President/Precinct.geojson",
                             "items": null
                         }
                     ]
