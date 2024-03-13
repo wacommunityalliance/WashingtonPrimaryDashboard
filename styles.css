@@ -51,10 +51,8 @@ h1 {
 
 h2 {
     font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 1.5em;
-    line-height: 20px;
-    margin: 5px 0 3px 0;
+    font-weight: 500;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -71,10 +69,11 @@ h3 {
     position: absolute;
     background-color: white;
     opacity: 100%;
-    width: 245px;
+    width: 250px;
     z-index: 100;
     height: 180px;
-    border-right: solid black;
+    border-right: solid black 1.5px;
+    border-bottom: solid black 1.5px;
 }
 
 #logo {
@@ -90,11 +89,19 @@ h3 {
     width: 100%;
 }
 
+
 .mapboxgl-popup-content {
-    padding: 5px;
-    width: 150%;
-    border-radius: .5em;
+    padding: 6px;
+    border-radius: .7em;
+    width: 320px;
     border: solid black 1.5px;
+}
+
+
+.mapboxgl-popup-content h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.7em;
 }
 
 .mapboxgl-popup-content p {
@@ -103,13 +110,19 @@ h3 {
     font-size: .8em;
 }
 
+.mapboxgl-popup-close-button {
+    padding: 7px; 
+    font-size: 17px; 
+}
+
 .menu {
     position: absolute;
     background-color: white;
     left: 0;
-    width: 245px;
+    width: 250px;
     top: 180px;
-    height: 340px;
+    height: 347px;
+    padding-top: 7px;
     border-right: solid black;
 }
 
@@ -129,8 +142,8 @@ p {
     font-weight: 300;
     font-size: 0.7em;
     display: block;
-    margin: 5px 0 5px 0;
     line-height: 15px;
+    padding-bottom: 2px; 
 }
 
 .rank-square {
@@ -140,26 +153,27 @@ p {
 }
 
 table.table1 {
-    border-collapse: separate;
+    /* border-collapse: separate;
     border-radius: 5px;
-    border: 2px 2px 2px 2px;
+    border: 2px 2px 2px 2px; */
     width: 100%;
 }
 
 table.table1 td {
     font-family: 'Montserrat';
     font-weight: 300;
-    font-size: .8em;
+    font-size: .85em;
+    text-align: left;
+    padding-right: 5px;
     white-space: nowrap;
-    text-align: center;
 }
 
 table.table1 th {
     font-family: 'Montserrat';
     font-weight: 300;
-    font-size: .7em;
-    text-align: center;
-    border-bottom: 1.5px solid black;
+    font-size: .8em;
+    text-align: left;
+    border-bottom: .75px solid black;
 }
 
 table.table2 {

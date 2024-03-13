@@ -38,6 +38,7 @@ map.on('click', 'selectedLayer', (e) => {
         popup = null;
     }
 
+    
     const label = e.features[0].properties.Title;
     const totalVotes = e.features[0].properties.Votes_total;
     const precinct = e.features[0].properties.Precinct;
