@@ -38,28 +38,34 @@
 
     <nav class="menu">
         <div id="menu-top">
-            <h3>#1 <select class="dropdown" id="first-dropdown"></select></h3>
-            <h3>#2 <select class="dropdown" id="second-dropdown"></select></h3>
-            <h3>#3 <select class="dropdown" id="third-dropdown"></select></h3>
-            <h3>Add-ons <select class='dropdown' id="extras-dropdown">
-                    <option value="">None</option>
-                    <option value="Data/Add-ons/Congressional Districts.geojson">Congressional Districts</option>
-                    <option value="Data/Add-ons/Counties.geojson">Counties</option>
-                    <option value="Data/Add-ons/County Council.geojson">County Council Districts</option>
-                    <option value="Data/Add-ons/Legislative Districts.geojson">Legislative Districts</option>
-                    <option value="Data/Add-ons/Municipalities.geojson">Municipalities</option>
-                    <option value="Data/Add-ons/School Districts.geojson">School Districts</option>
-                    <option value="Data/Add-ons/Tribal Lands.geojson">Tribal Lands</option>
-                </select></h3>
+            <h3>YEAR<br><br> <select class="dropdown" id="first-dropdown"></select></h3>
+            <h3>POSITION<br><br><select class="dropdown" id="second-dropdown"></select></h3>
+            <h3>LAYER<br><br><select class="dropdown" id="third-dropdown"></select></h3>
+            <h3>ADD-ONS<br><br><select class='dropdown' id="extras-dropdown">
+                </h3><option value="">none</option>
+                <option value="Data/Add-ons/Appeals Court.geojson">Appeals Court Divisions</option>
+                <option value="Data/Add-ons/City Council.geojson">City Council</option>
+                <option value="Data/Add-ons/Congressional Districts (2012-2021).geojson">Congressional Districts (2012-2021)</option>
+                <option value="Data/Add-ons/Congressional Districts (2022-present).geojson">Congressional Districts (2022-present)</option>
+                <option value="Data/Add-ons/County.geojson">Counties</option>
+                <option value="Data/Add-ons/County Council Districts (2012-2021).geojson">County Council Districts (2012-2021)</option>
+                <option value="Data/Add-ons/County Council Districts (2022-present).geojson">County Council Districts (2022-present)</option>
+                <option value="Data/Add-ons/Legislative Districts (2012-2021).geojson">Legislative Districts (2012-2021)</option>
+                <option value="Data/Add-ons/Legislative Districts (2022-2023).geojson">Legislative Districts (2022-2023)</option>
+                <option value="Data/Add-ons/Legislative Districts (2024-present).geojson">Legislative Districts (2024-present)</option>
+                <option value="Data/Add-ons/Municipal.geojson">Cities & Towns</option>
+                <option value="Data/Add-ons/School Districts.geojson">School Districts</option>
+                <option value="Data/Add-ons/Superior Court.geojson">Superior Court Districts</option>
+                <option value="Data/Add-ons/Tribal Lands.geojson">Tribal Lands</option>
+            </select></h3>
         </div>
 
         <div id="menu-middle">
             <table class="table2">
                 <tr>
-                    <th colspan="8">Vote margin (1st place vs 2nd place)</th>
+                    <th colspan="7">Vote margin (1st – 2nd place)</th>
                 </tr>
                 <tr>
-                    <td>1st</td>
                     <td bgcolor="#fbe9db"></td>
                     <td bgcolor="#f8deca"></td>
                     <td bgcolor="#f5d3bb"></td>
@@ -69,7 +75,6 @@
                     <td bgcolor="#ecab73"></td>
                 </tr>
                 <tr>
-                    <td>2nd</td>
                     <td bgcolor="#daebea"></td>
                     <td bgcolor="#c5e0de"></td>
                     <td bgcolor="#b5d7d4"></td>
@@ -79,7 +84,6 @@
                     <td bgcolor="#6ab0a9"></td>
                 </tr>
                 <tr>
-                    <td>3rd</td>
                     <td bgcolor="#e7e8f0"></td>
                     <td bgcolor="#dbdde8"></td>
                     <td bgcolor="#cfd3e2"></td>
@@ -89,7 +93,6 @@
                     <td bgcolor="#9fa4c4"></td>
                 </tr>
                 <tr>
-                    <td>4th</td>
                     <td bgcolor="#fcf5e5"></td>
                     <td bgcolor="#fbefd6"></td>
                     <td bgcolor="#fce9c8"></td>
@@ -99,7 +102,6 @@
                     <td bgcolor="#f6d392"></td>
                 </tr>
                 <tr>
-                    <td>5th</td>
                     <td bgcolor="#dfe8ef"></td>
                     <td bgcolor="#cedfe9"></td>
                     <td bgcolor="#c0d4e2"></td>
@@ -109,7 +111,6 @@
                     <td bgcolor="#80a8c5"></td>
                 </tr>
                 <tr>
-                    <td>6th</td>
                     <td bgcolor="#f2e1de"></td>
                     <td bgcolor="#ebd1ce"></td>
                     <td bgcolor="#e7c2c0"></td>
@@ -119,7 +120,6 @@
                     <td bgcolor="#d08881"></td>
                 </tr>
                 <tr>
-                    <td></td>
                     <td>≤5%</td>
                     <td>10%</td>
                     <td>15%</td>
@@ -133,40 +133,36 @@
     </nav>
 
     <div id="welcome-message" title="Welcome!">
-        <p>This resource is a project of the <a href="https://wacommunityalliance.org/" target="_blank">Washington
-                Community Alliance</a> Data Hub,
-            developed to increase accessibility and clarity of election results. All data are publicly available from
-            the website of Washington's <a href="https://www.sos.wa.gov/elections/" target="_blank">Secretary of
-                State</a>.
+        <p>This resource is a project of the <a href="https://wacommunityalliance.org/datahub/" target="_blank">Washington Community Alliance Data Hub</a>, 
+            developed to increase accessibility of election results.
             <br><br>
-            This resource was developed by <a href="mailto:tim@wacommunityalliance.org">Tim O'Neal, PhD</a>, Senior
-            Research Analyst at WCA, and
-            shapefiles and precinct descriptions were created, maintained, and provided by <a
-                href="mailto:ben@progressivestrategiesnw.com">Ben Anderstone</a> of <a
-                href="http://progressivestrategiesnw.com/" target="_blank">Progressive Strategies NW</a>.
-            If you enjoy this resource, please consider <a href="https://secure.actblue.com/donate/wca-action-fund"
-                target="_blank">donating today</a> to support the work we do to make election data as accessible as
-            possible.
+            To get started, select: <a>#1</a> the election year, <a>#2</a> the position, and <a>#3</a> the layer you would like to see results for. 
+            Additional boundaries and districts can be added to the map using the <a>Add-ons</a> dropdown. For more information, click the help icon in the bottom-right corner.
             <br><br>
-            Updated with preliminary results for the 2024 Presidential Primary at 8pm on 3/25/24
-        </p>
+            Last update: 1pm on June 7th, 2024
         </p>
     </div>
 
     <div id="about-icon">
         <div id="about-questionmark">?</div>
         <div id="about-popup" title="Getting started">
-            <p>This dashboard includes election results from 2016-2023, with options to view results at multiple levels.
-                Be sure to check back often, as additional historic data will regularly be added.<br><br>
-                To get started, choose (1) the election cycle you're interested in,
-                (2) the position you would like to explore, and (3) the level you would like to see results shown for.
+            <p>This resource is a project of the <a href="https://wacommunityalliance.org/datahub/" target="_blank">Washington Community Alliance Data Hub</a>, 
+                developed to increase accessibility and clarity of election results. All data were downloaded directly from Washington's <a href="https://www.sos.wa.gov/elections/" target="_blank">Secretary of State</a>.
+                Be sure to check out our companion resource, the <a href="https://wacommunityalliance.github.io/WashingtonElectionsDashboard/" target="_blank">General Elections Dashboard</a>, to explore results from Washington's General elections.
+                <br><br>
+                This dashboard includes Primary Election results from 2012-2023, with options to view results at multiple levels. 
+                To get started, choose (1) the election cycle you're interested in, (2) the position you would like to explore, and (3) the level you would like to see results shown for. 
+                Additional boundaries and districts can be added to the map using the "Add-ons" dropdown.
                 While data is visualized, you can click on any boundary to see a popup of results.
-                Layers are colored by overall candidate ranking and vote margin (the vote difference between 1st and 2nd
-                place candidates). <br><br>
-                Data on voter turnout is visualized relative to the statewide average for that year, with deeper greens
-                indicating greater-than-average turnout and deeper purples indicating lower-than-average
-                turnout.<br><br>
-                Mobile users: clicking on the orange button in the upper-left will collapse/expand the menu bar.
+                Boundaries are colored by party preference of the candidate who won that area, with all parties other than "Democratic" or "Republican" grouped together 
+                as "Independent" (partisan races) or "None" (non-partisan races) for simplicity.
+                Note that clicking the orange (+) button in the upper-left will collapse/expand the menu bar (mobile users only). 
+                <br><br>
+                Data processing and web development were led by <a href="mailto:tim@wacommunityalliance.org">Tim O'Neal, PhD</a>, Senior Research Analyst at Washington Community Alliance.
+                Shapefiles and precinct descriptions were created, maintained, and provided by <a href="mailto:ben@progressivestrategiesnw.com">Ben Anderstone</a> of <a href="http://progressivestrategiesnw.com/" target="_blank">Progressive Strategies NW</a>.
+                If you enjoy this resource, please consider <a href="https://secure.actblue.com/donate/wca-action-fund" target="_blank">donating </a> to support our work of increasing accessibility of election data.                 
+                <br><br>
+                Last update: 10:30am on June 5th, 2024
         </div>
     </div>
 

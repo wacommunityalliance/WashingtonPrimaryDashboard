@@ -33,8 +33,14 @@
     padding: 10px;
     bottom: 50px;
     right: 20px;
-    width: 300px;
+    width: 500px;
     z-index: 1;
+}
+
+#about-popup a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #004068;
 }
 
 #about-questionmark {
@@ -53,7 +59,8 @@ h2 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
+    white-space: nowrap;
 }
 
 h3 {
@@ -69,11 +76,10 @@ h3 {
     position: absolute;
     background-color: white;
     opacity: 100%;
-    width: 250px;
+    width: 230px;
     z-index: 100;
     height: 180px;
     border-right: solid black 1.5px;
-    border-bottom: solid black 1.5px;
 }
 
 #logo {
@@ -93,7 +99,8 @@ h3 {
 .mapboxgl-popup-content {
     padding: 6px;
     border-radius: .7em;
-    width: 320px;
+    width: max-content;
+    text-wrap: nowrap;
     border: solid black 1.5px;
 }
 
@@ -101,7 +108,8 @@ h3 {
 .mapboxgl-popup-content h1 {
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 1.7em;
+    font-size: 1.3em;
+    line-height: 20px;
 }
 
 .mapboxgl-popup-content p {
@@ -119,20 +127,20 @@ h3 {
     position: absolute;
     background-color: white;
     left: 0;
-    width: 250px;
+    width: 230px;
     top: 180px;
     height: 347px;
     padding-top: 7px;
-    border-right: solid black;
+    border-right: solid black 1.5px;
 }
 
 #menu-top {
-    height: 110px;
+    height: 150px;
     padding: 0px 0px 5px 2px;
 }
 
 #menu-middle {
-    height: 230px;
+    height: 190px;
     padding: 0 10px 0 10px;
     border-bottom: solid black;
 }
@@ -144,6 +152,12 @@ p {
     display: block;
     line-height: 15px;
     padding-bottom: 2px; 
+}
+
+.party-square {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
 }
 
 .rank-square {
@@ -172,13 +186,14 @@ table.table1 th {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: .8em;
+    padding-right: 20px;
     text-align: left;
     border-bottom: .75px solid black;
 }
 
 table.table2 {
     width: 100%;
-    height: 30%;
+    height: 100%;
     table-layout: fixed;
 }
 
@@ -186,19 +201,19 @@ table.table2 td {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: .65em;
-    height: 4%;
+    height: 5%;
     text-align: center;
-    padding: 5px 2px 5px 2px;
+    padding: 2px 2px 2px 2px;
     border-bottom: solid white;
 }
 
 table.table2 th {
     font-family: 'Montserrat';
     font-weight: 300;
-    font-size: .7em;
-    height: 4%;
+    font-size: .75em;
+    height: 5%;
     text-align: center;
-    padding: 5px 2px 5px 2px;
+    padding: 2px 2px 2px 2px;
 }
 
 #title {
