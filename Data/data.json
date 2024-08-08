@@ -14,6 +14,11 @@
                             "items": null
                         },
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Attorney General/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "State",
                             "path": "/Data/2024/Attorney General/State.geojson",
                             "items": null
@@ -28,6 +33,11 @@
                             "title": "Municipal",
                             "path": "/Data/2024/City Councilor Pos. 8/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/City Councilor Pos. 8/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -38,6 +48,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/Commissioner of Public Lands/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Commissioner of Public Lands/Precinct.geojson",
                             "items": null
                         },
                         {
@@ -200,6 +215,11 @@
                             "items": null
                         },
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Governor/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "State",
                             "path": "/Data/2024/Governor/State.geojson",
                             "items": null
@@ -216,6 +236,11 @@
                             "items": null
                         },
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Insurance Commissioner/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "State",
                             "path": "/Data/2024/Insurance Commissioner/State.geojson",
                             "items": null
@@ -229,6 +254,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/Lt. Governor/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Lt. Governor/Precinct.geojson",
                             "items": null
                         },
                         {
@@ -281,6 +311,11 @@
                             "items": null
                         },
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Secretary of State/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "State",
                             "path": "/Data/2024/Secretary of State/State.geojson",
                             "items": null
@@ -294,6 +329,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/State Auditor/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/State Auditor/Precinct.geojson",
                             "items": null
                         },
                         {
@@ -311,6 +351,11 @@
                             "title": "Legislative",
                             "path": "/Data/2024/State Representative Pos. 1/Legislative.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/State Representative Pos. 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -321,6 +366,11 @@
                         {
                             "title": "Legislative",
                             "path": "/Data/2024/State Representative Pos. 2/Legislative.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/State Representative Pos. 2/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -333,6 +383,11 @@
                             "title": "Legislative",
                             "path": "/Data/2024/State Senator/Legislative.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/State Senator/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -343,6 +398,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/State Treasurer/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/State Treasurer/Precinct.geojson",
                             "items": null
                         },
                         {
@@ -359,6 +419,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/Superintendent of Public Instruction/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Superintendent of Public Instruction/Precinct.geojson",
                             "items": null
                         },
                         {
@@ -424,6 +489,11 @@
                             "title": "Congressional",
                             "path": "/Data/2024/U.S. Representative/Congressional.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/U.S. Representative/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -434,6 +504,16 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/U.S. Senator/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/U.S. Senator/Precinct.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "State",
+                            "path": "/Data/2024/U.S. Senator/State.geojson",
                             "items": null
                         }
                     ]
