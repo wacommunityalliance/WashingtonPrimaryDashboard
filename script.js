@@ -160,8 +160,8 @@ function createTableRow(candidate, party, votes, percent) {
         'Independent_6': '#cf635d',
 
         'None_1': '#f68f3e',
-        'None_2': '#fac566',
-        'None_3': '#119f92',
+        'None_2': '#119f92',
+        'None_3': '#fac566',
         'None_4': '#868fba',
         'None_5': '#4f93ba',
         'None_6': '#cf635d',
@@ -356,8 +356,8 @@ function layerSelected(path) {
                 'Independent_5', '#4f93ba',
                 'Independent_6', '#cf635d',
                 'None_1', '#f68f3e',
-                'None_2', '#fac566',
-                'None_3', '#119f92',
+                'None_2', '#119f92',
+                'None_3', '#fac566',
                 'None_4', '#868fba',
                 'None_5', '#4f93ba',
                 'None_6', '#cf635d',
@@ -400,7 +400,7 @@ function loadGeoJSONLayer(url) {
             source: 'dynamic-layer',
             paint: {
                 'line-color': '#595959',
-                'line-width': 2
+                'line-width': 2.5
             }
         });
 
