@@ -366,13 +366,16 @@ function layerSelected(path) {
             'fill-opacity': [       // set fill opacity to margin b/w 1st and 2nd place candidates
                 'step',
                 ['get', 'Margin'],
+                0.1, 2.5,
                 0.2, 5,
                 0.3, 10,
-                0.4, 15,
-                0.5, 20,
-                0.6, 25,
-                0.7, 30,
-                0.8, 101,
+                0.4, 20,
+                0.5, 30,
+                0.6, 40,
+                0.7, 50,
+                0.8, 60,
+                0.9, 70,
+                1, 101,
                 0
             ]
         }
