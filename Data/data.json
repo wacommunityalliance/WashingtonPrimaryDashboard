@@ -70,6 +70,11 @@
                             "title": "District",
                             "path": "/Data/2024/County Commissioner District 1/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Commissioner District 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -80,6 +85,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2024/County Commissioner District 2/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Commissioner District 2/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -92,6 +102,11 @@
                             "title": "District",
                             "path": "/Data/2024/County Commissioner District 3/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Commissioner District 3/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -102,6 +117,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2024/County Commissioner District 4/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Commissioner District 4/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -114,6 +134,11 @@
                             "title": "District",
                             "path": "/Data/2024/County Commissioner District 5/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Commissioner District 5/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -124,6 +149,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2024/County Councilor District 1/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Councilor District 1/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -136,6 +166,11 @@
                             "title": "District",
                             "path": "/Data/2024/County Councilor District 2/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Councilor District 2/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -146,6 +181,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2024/County Councilor District 3/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Councilor District 3/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -158,6 +198,11 @@
                             "title": "District",
                             "path": "/Data/2024/County Councilor District 4/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Councilor District 4/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -168,6 +213,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2024/County Councilor District 6/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Councilor District 6/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -180,6 +230,11 @@
                             "title": "County",
                             "path": "/Data/2024/County Executive/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Executive/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -191,6 +246,11 @@
                             "title": "County",
                             "path": "/Data/2024/County Sheriff/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Sheriff/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -201,6 +261,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/County Treasurer/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/County Treasurer/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -276,6 +341,11 @@
                             "title": "County",
                             "path": "/Data/2024/PUD Commissioner District 1/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/PUD Commissioner District 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -287,6 +357,11 @@
                             "title": "County",
                             "path": "/Data/2024/PUD Commissioner District 2/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/PUD Commissioner District 2/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -297,6 +372,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2024/PUD Commissioner District 3/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/PUD Commissioner District 3/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -438,13 +518,13 @@
                     "path": null,
                     "items": [
                         {
-                            "title": "County",
-                            "path": "/Data/2024/Superior Court Judge Pos. 1/County.geojson",
+                            "title": "District",
+                            "path": "/Data/2024/Superior Court Judge Pos. 1/District.geojson",
                             "items": null
                         },
                         {
-                            "title": "District",
-                            "path": "/Data/2024/Superior Court Judge Pos. 1/District.geojson",
+                            "title": "Precinct",
+                            "path": "/Data/2024/Superior Court Judge Pos. 1/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -454,13 +534,13 @@
                     "path": null,
                     "items": [
                         {
-                            "title": "County",
-                            "path": "/Data/2024/Superior Court Judge Pos. 11/County.geojson",
+                            "title": "District",
+                            "path": "/Data/2024/Superior Court Judge Pos. 11/District.geojson",
                             "items": null
                         },
                         {
-                            "title": "District",
-                            "path": "/Data/2024/Superior Court Judge Pos. 11/District.geojson",
+                            "title": "Precinct",
+                            "path": "/Data/2024/Superior Court Judge Pos. 11/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -470,13 +550,13 @@
                     "path": null,
                     "items": [
                         {
-                            "title": "County",
-                            "path": "/Data/2024/Superior Court Judge Pos. 15/County.geojson",
+                            "title": "District",
+                            "path": "/Data/2024/Superior Court Judge Pos. 15/District.geojson",
                             "items": null
                         },
                         {
-                            "title": "District",
-                            "path": "/Data/2024/Superior Court Judge Pos. 15/District.geojson",
+                            "title": "Precinct",
+                            "path": "/Data/2024/Superior Court Judge Pos. 15/Precinct.geojson",
                             "items": null
                         }
                     ]
