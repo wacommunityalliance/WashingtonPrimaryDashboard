@@ -546,17 +546,22 @@
                     ]
                 },
                 {
-                    "title": "Superior Court Judge Pos. 15",
+                    "title": "Supreme Court Justice Pos. 2",
                     "path": null,
                     "items": [
                         {
-                            "title": "District",
-                            "path": "/Data/2024/Superior Court Judge Pos. 15/District.geojson",
+                            "title": "County",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/County.geojson",
                             "items": null
                         },
                         {
                             "title": "Precinct",
-                            "path": "/Data/2024/Superior Court Judge Pos. 15/Precinct.geojson",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/Precinct.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "State",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/State.geojson",
                             "items": null
                         }
                     ]
