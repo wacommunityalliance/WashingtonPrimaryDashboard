@@ -562,6 +562,27 @@
                     ]
                 },
                 {
+                    "title": "Supreme Court Justice Pos. 2",
+                    "path": null,
+                    "items": [
+                        {
+                            "title": "County",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/Precinct.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "State",
+                            "path": "/Data/2024/Supreme Court Justice Pos. 2/State.geojson",
+                            "items": null
+                        }
+                    ]
+                },
+                {
                     "title": "U.S. Representative",
                     "path": null,
                     "items": [
