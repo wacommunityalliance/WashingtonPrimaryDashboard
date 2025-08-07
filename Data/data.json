@@ -150,7 +150,13 @@
                 {
                     "title": "City Councilor Ward 6",
                     "path": null,
-                    "items": null
+                    "items": [
+                        {
+                            "title": "Municipal",
+                            "path": "/Data/2025/City Councilor Ward 6/Municipal.geojson",
+                            "items": null
+                        }
+                    ]
                 },
                 {
                     "title": "City Councilor Ward District 1 Pos. 1",
