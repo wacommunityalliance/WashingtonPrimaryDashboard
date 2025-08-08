@@ -326,7 +326,7 @@ function layerSelected(path) {
         layout: {},
         paint: {
             'line-color': '#595959',
-            'line-width': 1.25
+            'line-width': 0
         }
     });
 

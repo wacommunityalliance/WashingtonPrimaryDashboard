@@ -407,6 +407,11 @@
                             "title": "County",
                             "path": "/Data/2025/County Executive/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Executive/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
