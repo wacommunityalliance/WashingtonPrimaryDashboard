@@ -23,6 +23,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -33,6 +38,11 @@
                         {
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor At-Large/Municipal.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor At-Large/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -45,6 +55,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 1/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -55,6 +70,11 @@
                         {
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 2/Municipal.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 2/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -67,6 +87,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 3/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 3/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -77,6 +102,11 @@
                         {
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 4/Municipal.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 4/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -89,6 +119,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 5/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 5/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -100,6 +135,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 6/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 6/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -110,6 +150,11 @@
                         {
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Pos. 7/Municipal.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Pos. 7/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -144,6 +189,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Ward 2/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Ward 2/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -154,6 +204,11 @@
                         {
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Ward 6/Municipal.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Ward 6/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -166,6 +221,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Ward District 1 Pos. 1/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Ward District 1 Pos. 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -177,6 +237,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/City Councilor Ward District 3 Pos. 3/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/City Councilor Ward District 3 Pos. 3/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -185,19 +250,13 @@
                     "path": null,
                     "items": [
                         {
-                            "title": ".ipynb_checkpoints",
-                            "path": null,
-                            "items": [
-                                {
-                                    "title": "County-checkpoint",
-                                    "path": "/Data/2025/County Assessor/.ipynb_checkpoints/County-checkpoint.geojson",
-                                    "items": null
-                                }
-                            ]
-                        },
-                        {
                             "title": "County",
                             "path": "/Data/2025/County Assessor/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Assessor/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -210,6 +269,11 @@
                             "title": "District",
                             "path": "/Data/2025/County Commissioner District 3/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Commissioner District 3/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -220,6 +284,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2025/County Coroner/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Coroner/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -232,6 +301,11 @@
                             "title": "District",
                             "path": "/Data/2025/County Councilor District 1/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Councilor District 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -242,6 +316,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2025/County Councilor District 2/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Councilor District 2/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -254,6 +333,11 @@
                             "title": "District",
                             "path": "/Data/2025/County Councilor District 3/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Councilor District 3/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -265,6 +349,11 @@
                             "title": "District",
                             "path": "/Data/2025/County Councilor District 4/District.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Councilor District 4/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -275,6 +364,11 @@
                         {
                             "title": "District",
                             "path": "/Data/2025/County Councilor District 5/District.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Councilor District 5/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -309,6 +403,11 @@
                             "title": "County",
                             "path": "/Data/2025/County Prosecutor/County.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Prosecutor/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -319,6 +418,11 @@
                         {
                             "title": "County",
                             "path": "/Data/2025/County Sheriff/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Sheriff/Precinct.geojson",
                             "items": null
                         }
                     ]
@@ -331,6 +435,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/Mayor/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/Mayor/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -342,6 +451,11 @@
                             "title": "Municipal",
                             "path": "/Data/2025/Proposition 1/Municipal.geojson",
                             "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/Proposition 1/Precinct.geojson",
+                            "items": null
                         }
                     ]
                 },
@@ -349,6 +463,11 @@
                     "title": "School Board Director Pos. 1",
                     "path": null,
                     "items": [
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Board Director Pos. 1/Precinct.geojson",
+                            "items": null
+                        },
                         {
                             "title": "School",
                             "path": "/Data/2025/School Board Director Pos. 1/School.geojson",
@@ -361,6 +480,11 @@
                     "path": null,
                     "items": [
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Board Director Pos. 2/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "School",
                             "path": "/Data/2025/School Board Director Pos. 2/School.geojson",
                             "items": null
@@ -371,6 +495,11 @@
                     "title": "School Board Director Pos. 3",
                     "path": null,
                     "items": [
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Board Director Pos. 3/Precinct.geojson",
+                            "items": null
+                        },
                         {
                             "title": "School",
                             "path": "/Data/2025/School Board Director Pos. 3/School.geojson",
@@ -383,6 +512,11 @@
                     "path": null,
                     "items": [
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Board Director Pos. 4/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "School",
                             "path": "/Data/2025/School Board Director Pos. 4/School.geojson",
                             "items": null
@@ -394,6 +528,11 @@
                     "path": null,
                     "items": [
                         {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Board Director Pos. 5/Precinct.geojson",
+                            "items": null
+                        },
+                        {
                             "title": "School",
                             "path": "/Data/2025/School Board Director Pos. 5/School.geojson",
                             "items": null
@@ -404,6 +543,11 @@
                     "title": "School Levy",
                     "path": null,
                     "items": [
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/School Levy/Precinct.geojson",
+                            "items": null
+                        },
                         {
                             "title": "School",
                             "path": "/Data/2025/School Levy/School.geojson",
@@ -427,19 +571,13 @@
                     "path": null,
                     "items": [
                         {
-                            "title": ".ipynb_checkpoints",
-                            "path": null,
-                            "items": [
-                                {
-                                    "title": "Legislative-checkpoint",
-                                    "path": "/Data/2025/State Senator/.ipynb_checkpoints/Legislative-checkpoint.geojson",
-                                    "items": null
-                                }
-                            ]
-                        },
-                        {
                             "title": "Legislative",
                             "path": "/Data/2025/State Senator/Legislative.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/State Senator/Precinct.geojson",
                             "items": null
                         }
                     ]
