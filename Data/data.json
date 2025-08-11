@@ -437,6 +437,22 @@
                     ]
                 },
                 {
+                    "title": "County Proposition 1",
+                    "path": null,
+                    "items": [
+                        {
+                            "title": "County",
+                            "path": "/Data/2025/County Proposition 1/County.geojson",
+                            "items": null
+                        },
+                        {
+                            "title": "Precinct",
+                            "path": "/Data/2025/County Proposition 1/Precinct.geojson",
+                            "items": null
+                        }
+                    ]
+                },
+                {
                     "title": "County Sheriff",
                     "path": null,
                     "items": [
@@ -469,17 +485,17 @@
                     ]
                 },
                 {
-                    "title": "Proposition 1",
+                    "title": "Municipal Proposition 1",
                     "path": null,
                     "items": [
                         {
                             "title": "Municipal",
-                            "path": "/Data/2025/Proposition 1/Municipal.geojson",
+                            "path": "/Data/2025/Municipal Proposition 1/Municipal.geojson",
                             "items": null
                         },
                         {
                             "title": "Precinct",
-                            "path": "/Data/2025/Proposition 1/Precinct.geojson",
+                            "path": "/Data/2025/Municipal Proposition 1/Precinct.geojson",
                             "items": null
                         }
                     ]
