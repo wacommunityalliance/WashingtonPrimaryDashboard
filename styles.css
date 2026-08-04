@@ -7,7 +7,6 @@
     border-radius: 5px;
 }
 
-
 #about-icon {
     position: absolute;
     bottom: 20px;
@@ -96,7 +95,6 @@ h3 {
     bottom: 0;
     width: 100%;
 }
-
 
 .mapboxgl-popup-content {
     padding: 6px;
