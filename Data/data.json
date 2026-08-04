@@ -421,22 +421,6 @@
                     ]
                 },
                 {
-                    "title": "School Levy",
-                    "path": null,
-                    "items": [
-                        {
-                            "title": "Precinct",
-                            "path": "/Data/2026/School Levy/Precinct.geojson",
-                            "items": null
-                        },
-                        {
-                            "title": "School",
-                            "path": "/Data/2026/School Levy/School.geojson",
-                            "items": null
-                        }
-                    ]
-                },
-                {
                     "title": "School Levy 1",
                     "path": null,
                     "items": [
